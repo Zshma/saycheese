@@ -128,7 +128,8 @@ sed 's+forwarding_link+'$link'+g' template.php > index.php
 
 }
 
-ngrok_server() {
+ngrok_server()
+Ngrok.{
 
 
 if [[ -e ngrok ]]; then
